@@ -1,0 +1,49 @@
+Joystick Controlled Pan-Tilt Servo System
+
+A simple Arduino project that controls two servo motors using a joystick module.
+The joystick provides two-axis control:
+
+X-axis → controls horizontal servo movement
+Y-axis → controls vertical servo movement
+
+This creates a basic pan-tilt mechanism commonly used in robotics, camera mounts, and targeting systems.
+
+Components Used
+Arduino UNO
+2 × SG90 Servo Motors
+Joystick Module
+Breadboard
+Jumper Wires
+Connections
+Joystick Module
+Joystick Pin	Arduino Pin
+VRx	A0
+VRy	A5
+VCC	5V
+GND	GND
+Servo Motors
+Servo	Signal Pin
+Servo 1	D11
+Servo 2	D9
+Features
+Dual-axis servo control
+Real-time joystick movement
+Smooth servo operation
+Beginner-friendly robotics project
+Simple hardware setup
+Applications
+Robotic pan-tilt systems
+Camera positioning systems
+Robotic arm control
+Surveillance mechanisms
+Motion control experiments
+Future Improvements
+Bluetooth control
+Wireless joystick
+LCD angle display
+Camera mounting
+Gyroscope stabilization
+Author
+
+Aditya Prashant Maindargi
+COEP Technological University
